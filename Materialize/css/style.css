@@ -1,0 +1,173 @@
+ html {
+    font-family: cursive, Trebuchet, sans-serif;
+  }
+
+.barra-superior{
+  
+  height: 9rem;
+}
+
+.botones-nav{
+	padding-right: 10rem;
+}
+
+.img-nav{
+	width: 134%;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	border-radius: 14px;
+}
+
+.head-nav{
+	margin-left: 25rem;
+	margin-top: -3rem;
+}
+
+.body-pag{
+	margin-top: -6px;
+	background-image: url(../img/11.jpg);
+	background-attachment: scroll;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: auto;
+}
+
+.redes-panel{
+	margin-top: 5rem;
+	margin-left: -15rem;
+}
+
+#sociales1{
+	width: 25%;
+	height: auto;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.cont-images{
+	margin-top: 5rem;
+}
+
+.cont1 .cont2 .cont3{
+	margin-top: 2rem;
+}
+
+.img-cont2{
+	height: 38rem;
+	width: 100%;
+}
+
+.img-cont1{
+	width: 100%;
+}
+
+.img-cont3{
+	width: 100%;
+	height: auto;
+}
+
+.img-entrada{
+	width: 100%;
+	margin-top: 6px;
+
+}
+
+
+.cont-card-text{
+	display: flex;
+}
+
+.card-text1{
+	border-radius: 6px;
+}
+
+.text2-card{
+	margin-left: 20px;
+	border-radius: 6px;
+}
+
+.img-entrada2{
+	width: 20%;
+	border-radius: 57px;
+	margin-left: 8rem;
+	margin-top: 2rem;
+}
+
+.text-entrada2{
+	text-align: center;
+	font-size: 30px;
+}
+
+.text2-entrada2{
+	text-align: center;
+}
+
+.cont-entrada2{
+	margin: 11px;
+}
+
+.input-field .prefix{
+	color: black;
+}
+
+.footer-cont{
+	height: 22rem;
+	border-radius: 5px;
+}
+
+.button-footer{
+	margin-top: 2rem;
+	margin-left: 74rem;
+}
+
+
+/* Animaciones*/
+
+#sociales1:hover{
+   -webkit-transform:scale(1.25);
+   -moz-transform:scale(1.25);
+   -ms-transform:scale(1.25);
+   -o-transform:scale(1.25);
+   transform:scale(1.25); 
+}
+
+
+/* Adaptación de pantalla*/
+
+@media all and (max-width: 480px) and (min-width:180px){
+
+	.img-nav{
+	width: 100px;
+	margin-top: 0.5rem;
+	margin-left: 0rem;
+	border-radius: 5px;
+}
+
+.head-nav{
+	font-size: 25px;
+	margin-top: -3rem;
+	margin-left: 0rem;
+
+}
+
+.card-cont{
+	left: 27px;
+}
+
+
+.body-pag{
+	margin-top: -6px;
+	background-image: url(../img/11.jpg);
+	background-attachment: scroll;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+}

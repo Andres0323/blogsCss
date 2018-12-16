@@ -1,0 +1,108 @@
+.fondo{
+	background-image: url(../img/4.jpg);
+	background-attachment: scroll;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+	color: black;
+	margin-top: 1rem;
+}
+
+.cont-titulo{
+	background-color: rgba(200, 182, 182, 0.45);  
+}
+
+.izquierda{
+	background-color: rgba(200, 182, 182, 0.45);	
+	height: 137rem;
+	margin-top: 1rem;
+}
+
+.derecha{
+	background-color: rgba(200, 182, 182, 0.45);	
+	height: 137rem;
+	margin-top: 1rem;
+}
+
+.buscar{
+	margin-top: 1rem;
+}
+
+.buscador{
+	height: 40px;
+	width: 70px;
+	margin-left: 10px;
+}
+
+a:link {
+	color:red;
+}
+
+a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:active {
+	color: lime;
+}
+
+.columnaDerecha{
+	margin-right: 5px;
+}
+
+.row .row {
+    margin-left: -.5rem;
+    margin-right: 0.5rem;
+}
+
+.tituloEntrada {
+	margin-left: 20px;
+}
+
+.fecha {
+   color:rgba(255, 82, 85, 1);;
+   margin-left: 45px;
+   margin-bottom: -15px;
+}
+
+.imagenEntrada {
+	width: 98%;
+	height: auto;
+	margin-left: 5px;
+}
+
+.textoEntrada {
+	margin-left: 14px;
+	width: 99%;
+}
+
+.imagenTexArea {
+	margin-top: 5px;
+	width: 20px;
+	height: auto;
+}
+
+.textComent {
+	margin-left: 14px;
+}
+
+.textArea {
+	width: 100%;
+}
+
+.send {
+	margin-left: 22rem;
+}
+
+.imgComent {
+	width: 100%;
+	border-radius: 51px;
+}

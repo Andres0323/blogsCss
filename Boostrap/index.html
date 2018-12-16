@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
+        <title>Blog De Musica</title>
+    <!--############# Modo Ofline #########-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!--############# Modo Online #########-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <!--############# Estilos CSS #########-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body class="fondo">
+     <div class="container-fluid">
+       <header>        
+          <div class="row inicio">
+            <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2"><img class='logo-img' src='img/guitarra.jpg'/></div>
+            <div class='col-xs-1 col-sm-1 col-md-8 col-lg-8'></div>
+            <div class="col-lg-2 col-sm-2 col-xs-2 redes">
+                <a href="https://www.facebook.com/andrex.acevedog" target="blank"><img src="img/facebook.png" class="social"></a>
+                <a href="https://www.instagram.com/andrex0323/" target="blank"><img src="img/instagram.jpg" class="social"></a>
+                <a href="https://twitter.com/ANDREX_23" target="blank"><img src="img/Twitter.png" class="social"></a>
+            </div>
+            </div>           
+      </header> 
+      <div>
+          <!--############# Barra Contenido #########-->
+        <nav class='navbar navbar-inverse navbar-fixed-top affix-top barra'>
+            <div class="nav-iconos col-sm-2 col-md-1"><a href="#" class="vinculo">Inicio  </a></div>
+            <div class="nav-iconos col-sm-2 col-md-1"><a href="" class="vinculo">Artistas  </a></div>
+            <div class="nav-iconos col-sm-2 col-md-1"><a href="" class="vinculo">Generos  </a></div>
+            <div class="nav-iconos col-sm-2 col-md-1"><a href="" class="vinculo">Top 10  </a></div>
+            <div class="nav-iconos col-sm-2 col-md-1"><a href="" class="vinculo">Conciertos  </a></div>
+            <div class="nav-iconos col-sm-2 col-md-1"><a href="" class="vinculo">Galeria  </a></div>
+        </nav>  
+      </div>
+        <!--############# Sección Contenido #########-->
+      <div class="row">
+        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 contenido">
+            <h6 class="titulo">La Música Electrónica</h6>
+            <div class="row">
+                <div class="col-xs-5 col-sm-5 col-md-8 col-lg-8">
+                  <p>
+                   Es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. ... La producción de sonidos puramente electrónica puede lograrse mediante aparatos como el theremin, el sintetizador de sonido y el ordenador.
+                  </p>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img class="img-contenido" src="img/3.jpg"></div>
+            </div>
+                <div class="form-group">
+                 <label for="comentar">Deja Tu Comentario:</label>
+                 <textarea class="form-control" rows="2" id="comentar" placeholder="Comentario"></textarea>
+                </div>
+             <h6 class="titulo">La Música Clasica</h6>
+               <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img class="img-contenido" src="img/4.jpg"></div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-8 ">
+                  <p>
+                    Es la corriente musical que casa principalmente la música producida o basada en las tradiciones de la música litúrgica y secular de Occidente, principalmente Europa Occidental
+                  </p>
+                </div> 
+            </div> 
+                <div class="form-group">
+                   <label for="comentar2" id="comentar2">Deja Tu Comentario:</label>
+                   <textarea class="form-control" rows="2" id="comentar" placeholder="Comentario"></textarea>
+                 </div>         
+        </div>
+          <!--############# Sección Buscador #########-->
+          <div class=' col-md-1 col-lg-1'></div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 buscador">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="input-group buscar">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default " style="background-color: white" type="button">Buscar <img class="img-lupa" src="img/lupa.png"></button>
+                        </span>
+                         <input type="text" name="text" class="form-control " placeholder="Palabra Clave">
+                    </div>
+                </div>
+            </div>
+        <!--############# Opciones de Busqueda #########-->
+        <div class="row lista">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="list-group lista2">
+                    <li class="list-group-item">Rock <span class="badge" id="numero">120</span></li>
+                    <li class="list-group-item">Pop<span class="badge" id="numero">90</span></li>
+                    <li class="list-group-item">Reggaeton<span class="badge" id="numero">80</span></li>
+                    <li class="list-group-item">Popular<span class="badge" id="numero">75</span></li>
+                    <li class="list-group-item">Vallenatos<span class="badge" id="numero">65</span></li>
+                    <li class="list-group-item">Merengue<span class="badge" id="numero">43</span></li>
+                    <li class="list-group-item">Electronica<span class="badge" id="numero">20</span></li>
+                    <li class="list-group-item">Funk<span class="badge" id="numero">10</span></li>                    
+                </ul>
+            </div>            
+        </div>
+        <div class='form-group categorias'>
+                <legend class='favoritos'>Elige tus categorías favoritas</legend>
+                <input type='checkbox' name='Rock' id='Rock' />
+                <label for='Rock' class='label-class'>Rock</label>
+                <input type='checkbox' name='Pop' id='Pop' />
+                <label for='Pop' class='label-class'>Pop</label>
+                <input type='checkbox' name='Reggaeton' id='Reggaeton' />
+                <label for='Reggaeton' class='label-class'>Reggaeton</label>
+                <input type='checkbox' name='Popular' id='Popular' />
+                <label for='Popular' class='label-class'>Popular</label>
+              </div>
+        <!--############# Derechos #########-->
+         <p class="derechos">&#169; Andrés Acevedo, 2018</p>
+        </div>         
+      </div>  
+     </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+
+
+*******Clases Boostrap******
+
+****************Clases de Bootstrap CSS para texto:****************
+
+text-left: Alinear el texto a la izquierda.
+text-center: Alinear el texto al centro.
+text-right: Alinear el texto a la derecha.
+text-justify: Justificar el texto.
+text-uppercase: Convertir el texto a mayúsculas.
+text-lowercase: Convertir el texto a minúsculas.
+text-capitalize: Convertir las iniciales del texto a mayúsculas.
+
+Etiquetas especiales de Bootstrap CSS para textos:
+<abbr>: Abreviar texto. Es importante agregar el atributo title, para que esta funcione.
+<mark>: Marcar o resaltar texto.
+<code>: Resaltar porciones o líneas de código.
+<kbd>: Resaltar las teclas de acceso directo.
+
+Clases y etiquetas para el manejo de listas:
+<dl>: Abrir o iniciar una lista por definición.
+<dt>: Primera etiqueta que se asigna después de abrir la lista por definición. En ésta se podría decir que va el término o palabra que se desea definir o describir.
+<dd>: Etiqueta que va después de la etiqueta dt. En ésta se pone la definición o descripción del término o palabra que se puso en el dt.
+list-unstyled: Clase utilizada para quitar la numeración o viñetas de una lista.
+list-inline: Clase utilizada para mostrar las listas de manera horizontal.
+dl-horizontal: Clase utilizada para mostrar las listas por definición de manera horizontal.
+
+Clases Bootstrap para imágenes:
+img-rounded: Redondea las esquinas a 16 píxeles.
+img-circle: Redondea las esquinas con un radio de 50%.
+img-thumbnail: Pone un marco alrededor de la imagen.
+
+***********Clases para formularios y componentes de formularios:**************
+
+form-group: Alinear de manera horizontal y ordenada los elementos html.
+form-control: Adaptar de manera ordenada los elementos html, al tamaño de la pantalla del dispositivo desde el que se está visualizando el sitio.
+checkbox: Posicionar los elementos de manera vertical, asignando la clase a la etiqueta padre de un grupo de checkbox.
+checkbox-inline: Posicionar los elementos de manera horizontal, asignando la clase a la etiqueta padre de un grupo de checkbox.
+radio: Posicionar los elementos de manera horizontal, asignando la clase a la etiqueta padre de un grupo de radio-button.
+radio-inline: Posicionar los elementos de manera horizontal, asignando la clase a la etiqueta padre de un grupo de radio-button.
+btn btn-default: Al asignarse a los botones, cambia el color, los estilos y el tamaño. Existen diversas clases (btn-primary, btn-danger, entre otras).
+
+Atributos para formularios y componentes de formularios:
+role: Diferenciar el formulario de los demás elemento, al asignar el atributo role al formulario y darle el atributo Form.
+multiple: Seleccionar múltiples opciones de una lista desplegable.
